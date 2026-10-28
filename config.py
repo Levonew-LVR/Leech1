@@ -25,11 +25,7 @@ EXCLUDED_EXTENSIONS = ""
 INCLUDED_EXTENSIONS = ""
 INCOMPLETE_TASK_NOTIFIER = False
 YT_DLP_OPTIONS = {
-    "extractor_args": {
-        "youtube": {
-            "player_client": ["mweb", "tv"]
-        }
-    }
+    "cookiefile": "cookies.txt"  # O la ruta absoluta si es necesario
 }
 GALLERY_DL_OPTIONS = ""
 USE_SERVICE_ACCOUNTS = False
