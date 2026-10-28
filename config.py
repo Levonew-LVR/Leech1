@@ -24,9 +24,8 @@ TLDV_TOKEN = ""
 EXCLUDED_EXTENSIONS = ""
 INCLUDED_EXTENSIONS = ""
 INCOMPLETE_TASK_NOTIFIER = False
-YT_DLP_OPTIONS = {
-    "cookiefile": "/app/cookies.txt"  # O la ruta absoluta si es necesario
-}
+YT_DLP_OPTIONS = {"cookiefile":"cookies.txt"}
+
 GALLERY_DL_OPTIONS = ""
 USE_SERVICE_ACCOUNTS = False
 NAME_SUBSTITUTE = r""
